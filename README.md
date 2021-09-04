@@ -13,5 +13,6 @@ Once the data had been processed and split into training and testing sets we wer
 
 After creating and testing models with different features, activation functions, number of hidden layers, and units within each layer, the goal of 75% accuracy was not met.  So, a function was created which would create and test 60 different models for this data.  Unfortunately, the most accurate of these models still was only able to yield an **accuracy of 73%.**
 
+![model accuracy scores](https://github.com/murphyk2021/Neural_Network_Charity_Analysis/blob/cce8f9a070a1974246adb3b626df0cc428c29469/test_models.PNG)
 
 In order to generate a model with greater accuracy a larger dataset may be required.  In addition, other supervised machine learning techniques could be tried such as a logistic regression or even a SVM model.
